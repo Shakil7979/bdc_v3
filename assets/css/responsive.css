@@ -1,0 +1,234 @@
+@media all and (max-width: 1400px){
+    .packeage_second_show .package_info {
+        padding-bottom: 146px;
+    }
+    .radio-btn {
+        width: 83px;
+    }
+    .radio-btn p {
+        font-size: 10px; 
+    }
+}
+@media all and (max-width: 1199px){
+    .logo {
+        margin-left: 0;
+    }
+    .package_area {
+        margin-top: 83px;
+    }
+    .btn_2 { 
+        max-width: 277px; 
+    }
+    .package_single.second_package_single {
+        flex: 0 0 49%;
+    }
+    .package_row.package_second_row {
+        flex-wrap: wrap;
+    }
+    .package_single.second_package_single { 
+        margin-bottom: 82px;
+    }
+}
+
+@media all and (max-width: 991px){
+	.header { 
+        flex-direction: column;
+        gap: 25px;
+    }
+    .main_box {
+        padding: 20px;
+        margin: 8px 25px 25px 25px; 
+    }
+    .banner_title h2 {
+        font-size: 36px; 
+    }
+    .banner_title p {
+        font-size: 16px; 
+        line-height: 27px; 
+    }
+    .package_title h3 {
+        font-size: 16px; 
+        line-height: 23.6px; 
+    }
+    .package_title h4 {
+        font-size: 13px; 
+    }
+    .package_title h2 {
+        font-size: 32px; 
+    }
+    .package_title h2 sup {
+        font-size: 16px; 
+        transform: translateY(-3px);
+    }
+    .package_title h2 sub {
+        font-size: 13px; 
+    }
+    .package_info p,
+    .package_footer p,
+    .package_info ul li p {
+        font-size: 14px; 
+        line-height: 21.6px; 
+    }
+    .btn_2 ,
+    .btn_1 { 
+        font-size: 14px; 
+    }
+    .radio-btn { 
+        height: 80px; 
+    }
+    .from_group.card_number_group img {
+        width: 100px;
+        right: 5px;
+        bottom: 23px;
+    }
+    .from_group.card_number_group input {
+        padding-right: 106px;
+    }
+}
+
+@media all and (max-width: 767px){
+    .menu ul li img {
+        width: 34px;
+    }
+    .menu ul li a span { 
+        width: 30px;
+        height: 30px; 
+        font-size: 14px; 
+    }
+    .menu ul li a p {
+        font-size: 12px;    
+        line-height: 15px; 
+    }
+    .logo a img {
+        width: 100px;
+    }
+    .header_area {
+        padding: 10px 0 40px 0;
+    }
+    .package_row { 
+        flex-direction: column;
+        gap: 25px;
+    }
+    .package_area {
+        margin-top: 30px;
+    }
+    .package_single.package_single_popular {
+        margin-top: 60px;
+    }
+    .package_button p {
+        font-size: 16px; 
+    }
+    .footer p {
+        font-size: 14px; 
+    }
+    .footer ul { 
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .package_info ul li { 
+        margin-top: 8px;
+    }
+    .package_title h2 { 
+        margin-bottom: 6px; 
+    }
+    .banner_title p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .banner_title h2 {
+        font-size: 30px;
+    }
+    .package_single.second_package_single {
+        margin-bottom: 0;
+    }
+    .confrim_title h2 {
+        font-size: 20px; 
+    }
+    .confirm_ul li h4 {
+        font-size: 14px; 
+    }
+    .confirm_ul select ,
+    .confirm_ul p { 
+        font-size: 14px; 
+    }
+    .confri_total h3 {
+        font-size: 18px; 
+    }
+    .from_group label {
+        font-size: 14px; 
+        margin-bottom: 8px;
+    }
+    .from_group select, .from_group input { 
+        padding: 10px 15px; 
+        font-size: 14px; 
+    }
+    .from_group img { 
+        bottom: 13px;
+    }
+    .from_group.card_number_group img { 
+        bottom: 16px;
+    }
+    .from_group select { 
+        padding: 15px 15px !important;
+    }
+    .from_pra p {
+        font-size: 14px; 
+        line-height: 20.4px; 
+    }
+    .confirm_box { 
+        padding: 15px; 
+    }
+    .modal_box {
+        width: 95%; 
+    }
+    .modal_text h2 {
+        font-size: 30px; 
+    }
+    .modal_text p {
+        font-size: 16px; 
+        line-height: 24px; 
+    }
+    .btn_3 { 
+        font-size: 16px; 
+    }
+}
+
+@media all and (max-width: 575px){
+    .menu ul { 
+        gap: 3px; 
+    }
+    .modal_box { 
+        padding: 30px; 
+    }
+    .btn_3 { 
+        font-size: 14px; 
+    }
+    .modal_text p {
+        font-size: 14px; 
+        line-height: 24px; 
+    }
+    .main_box {
+        padding: 10px;
+        margin: 8px 15px 15px 15px;
+    }
+    .package_button { 
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .confrim_title h2 { 
+        margin-bottom: 8px;
+    }
+    .from_group { 
+        margin-bottom: 10px;
+    }
+    .from_group label { 
+        margin-bottom: 3px;
+    }
+    .from_btn {
+        margin: 15px 0;
+    }
+}
+
+@media all and (max-width: 450px){
+	
+}
