@@ -206,6 +206,21 @@ ul li a,a{
 	position: relative;
 	border-radius: 20px;
 	overflow: hidden;
+	/* border: 3px solid transparent; */
+}
+
+.second_package_single.active,
+.package_single.active {
+	border: 3px solid #153148;
+}
+
+.each_span { 
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 15px;
+	text-align: right;
+	color: #B5B5B5;
+	display: block;
 }
 
 .package_row {
@@ -225,6 +240,34 @@ ul li a,a{
 	padding: 24px;
 	background: #fff;
 	border-radius: 0 0 16px 16px;
+} 
+
+.next_btn {
+	pointer-events: none; /* Disable button */
+	opacity: 0.6; /* Make it look disabled */
+}
+.next_btn.enabled {
+	pointer-events: auto; /* Enable button */
+	opacity: 1; /* Make it look enabled */
+}
+
+.save_month_money{
+	display: none;
+}
+
+
+
+/* auto heigth scrollbarr  */
+
+
+.banner_area {
+	height: calc(100vh - 440px); 
+	overflow-y: scroll; 
+	-ms-overflow-style: none;  
+	scrollbar-width: none;  
+}
+.scrollable-container::-webkit-scrollbar {
+	display: none; 
 }
  
 
@@ -725,7 +768,7 @@ input:focus-visible {
 }
 
 .from_btn button {
-	background: #101010;
+	background: #163349;
 	max-width: 100% !important;
 }
 
@@ -898,7 +941,7 @@ input:focus-visible {
 }
 
 .date_show_img img {
-	width: 100%;
+	/* width: 100%; */
 }
 
 
