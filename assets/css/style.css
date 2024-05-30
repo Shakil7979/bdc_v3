@@ -51,7 +51,7 @@ ul li a,a{
 }
 
 .header_area {
-	padding: 0 0 40px 0;
+	padding: 0 0 12px 0;
 }
 
 .menu ul {
@@ -261,7 +261,7 @@ ul li a,a{
 
 
 .banner_area {
-	height: calc(100vh - 440px); 
+	height: calc(100vh - 360px); 
 	overflow-y: scroll; 
 	-ms-overflow-style: none;  
 	scrollbar-width: none;  
@@ -272,7 +272,7 @@ ul li a,a{
  
 
 .main_box { 
-	padding: 40px;
+	padding: 14px 40px 14px 40px;
 	margin: 8px 50px 50px 50px;
 	background: #F8FAFB;
 	box-shadow: 0px 4px 24px 0px #0000001A;
