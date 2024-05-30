@@ -261,7 +261,7 @@ ul li a,a{
 
 
 .banner_area {
-	height: calc(100vh - 360px); 
+	height: calc(100vh - 300px); 
 	overflow-y: scroll; 
 	-ms-overflow-style: none;  
 	scrollbar-width: none;  
@@ -273,7 +273,7 @@ ul li a,a{
 
 .main_box { 
 	padding: 14px 40px 14px 40px;
-	margin: 8px 50px 50px 50px;
+	margin: 8px 50px 8px 50px;
 	background: #F8FAFB;
 	box-shadow: 0px 4px 24px 0px #0000001A;
 	border: 1px solid #ECEFF3;
@@ -438,7 +438,7 @@ ul li a,a{
 }
 
 .package_button {
-	margin-top: 16px;
+	margin-top: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -458,9 +458,9 @@ ul li a,a{
 	box-shadow: 0px 1px 3px 0px #0D0D120D;
 	background: #153148;
 	width: 100%;
-	max-width: 411px;
-	padding: 16px;
-	border-radius: 20px;
+	max-width: 250px;
+	padding: 11px;
+	border-radius: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -488,8 +488,8 @@ ul li a,a{
 	margin-bottom: 12px;
 }
 
-.footer_area{
-	margin-top: 16px;
+.footer_area {
+	margin-top: 10px;
 }
 
 .footer ul {
