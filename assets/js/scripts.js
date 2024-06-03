@@ -63,9 +63,9 @@ $(document).ready(function () {
 		$('.packeage_first_show, .packeage_second_show, .package_button, .footer, .confirm_show, .confirm_footer, .select_date_show, .modal_main').hide();
 		
 		if (step == 1) {
-			$('.packeage_first_show').show();
+			$('.packeage_first_show, .package_button, .footer').show(); 
 		} else if (step == 2) {
-			$('.packeage_second_show, .package_button').show();
+			$('.packeage_second_show, .package_button, .footer').show();
 		} else if (step == 3) {
 			$('.confirm_show, .confirm_footer').show();
 		} else if (step == 4) {

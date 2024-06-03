@@ -233,7 +233,7 @@ ul li a,a{
 }
 
 .package_padding {
-	padding: 7px 24px 24px 24px;
+	padding: 10px 24px 24px 24px;
 	background: #fff;
 }
 
@@ -970,6 +970,32 @@ input:focus-visible {
 .title_width_confirm {
 	display: block;
 }
+
+.packeage_second_show .banner_title h2 {
+	font-size: 32px; 
+	margin: 25px 0 9px 0;
+}
+
+.packeage_second_show .banner_title {
+	margin-bottom: 25px;
+}
+
+.packeage_second_show .banner_title p {
+	font-size: 14px; 
+}
+
+.packeage_second_show .package_title h3 {
+	font-size: 15px; 
+	line-height: 21.6px; 
+}
+
+.packeage_second_show .package_info p {
+	font-size: 14px; 
+	line-height: 20.6px; 
+}
+
+
+
 
 /* End Home Page CSS  */
 /* .packeage_first_show, */
