@@ -8,6 +8,9 @@
     .radio-btn p {
         font-size: 10px; 
     }
+    .package_info {
+        padding-bottom: 54px;
+    }
 }
 @media all and (max-width: 1199px){
     .logo {
@@ -35,6 +38,16 @@
         flex-direction: column;
         gap: 25px;
     }
+    .package_info {
+        padding-bottom: 67px;
+    }
+    .date_box_area { 
+        flex-direction: column;
+    }
+    .date_left_side { 
+        border-right: none;
+    }
+
     .main_box {
         padding: 20px;
         margin: 8px 25px 25px 25px; 
@@ -89,6 +102,18 @@
 @media all and (max-width: 767px){
     .menu ul li img {
         width: 34px;
+    }
+    .date_logo img {
+        width: 118px;
+    }
+    .date_logo {
+        padding: 15px 0; 
+    }
+    .date_left_bar h2 {
+        font-size: 24px; 
+    }
+    .date_left_bar ul li p { 
+        font-size: 14px;
     }
     .menu ul li a span { 
         width: 30px;
@@ -197,8 +222,16 @@
     .menu ul { 
         gap: 3px; 
     }
+    .date_left_bar h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
     .modal_box { 
         padding: 30px; 
+    }
+    .date_right_flex { 
+        flex-direction: column;
+        gap: 25px;
     }
     .btn_3 { 
         font-size: 14px; 
