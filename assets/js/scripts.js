@@ -139,8 +139,16 @@ $(document).ready(function () {
 			return sum + parseInt(pkg.price);
 		}, 0);
 		var sub_add_amount = subTotal * 0.10; 
-		$('.sub_add_amount').html('$'+sub_add_amount +'.00');
+		
+		if (Number.isInteger(sub_add_amount)) {
+			sub_add_amount = sub_add_amount.toFixed(2); // Append .00 to integer values
+		}
+		$('.sub_add_amount').html('$'+sub_add_amount);
 		total_due = subTotal + (subTotal * 0.10);
+
+		if (Number.isInteger(total_due)) {
+			total_due = total_due.toFixed(2); // Append .00 to integer values
+		}
 
 		updatePriceList(selectedPackages);
 		$('.subTotal').html(subTotal);

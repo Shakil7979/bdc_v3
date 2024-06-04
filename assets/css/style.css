@@ -1192,6 +1192,19 @@ input:focus-visible {
     border: none;
 }
 
+#calendar-body tr:last-child span {
+	background: #EEF5FF;
+	color: #0069FF;
+    width: 45px;
+    border-radius: 50%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border: none;
+	margin: 0 auto;
+    justify-content: center;
+}
+
 /* sunday */
 /* .date-picker:nth-child(1) {
   color: red;
